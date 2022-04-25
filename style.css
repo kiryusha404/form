@@ -18,7 +18,6 @@ body{
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	background: whitesmoke;
 }
 section{
 	width: 100%;
@@ -57,12 +56,15 @@ form{
 
 }
 
-.output #el1{
-	transition-duration: 2s;
-	opacity: 1;
-}
+#animation{
+	width: 220px;
+	height: 70px;
+	border-radius: 20px;
+	position: absolute;
 
-.output #el2{
-	transition-duration: 2s;
-	opacity: 1;
+}
+.conteiner{
+	width: 100%;
+	height: 80px;
+	position: relative;
 }

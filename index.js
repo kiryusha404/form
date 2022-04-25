@@ -4,16 +4,23 @@
     var values = {
 
 };
-
-function showPT(table, place) {
-    tShow = document.querySelector("#el1");
-    pShow = document.querySelector('#el2');
-
-    if (localStorage.getItem('table') !== undefined && localStorage.getItem('place') !== undefined) {
-
+function anima() {
+    if (localStorage.getItem('table') !== null && localStorage.getItem('place') !== null) {
+    var elem = document.getElementById("animation");
+    var pos = 0;
+        var id = setInterval(frame, 10)
+        animation.style.backgroundColor = 'rgb (0,0,255)'
+    function frame() {
+        if (pos == (screen.width /2)) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.left = pos + 'px';
+        }
+        }
     }
-
 }
+
 function retrieveFormValue(event) {
     event.preventDefault();
     let table = form.querySelector('[name="table"]');
