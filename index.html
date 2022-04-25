@@ -4,8 +4,9 @@
 		<title>Ресторан</title>
 		<meta charset="UTF-8">
 		<link href="style.css" rel="stylesheet" type="text/css">
+
 	</head>
-	<body>
+	<body onload="anima()">
 		<header>
 			
 		</header>
@@ -15,10 +16,10 @@
 				<input type="number" name="place" placeholder="Количество мест" class="input">
 				<input type="submit" value="Заказать" class="button">
 			</form>
-			<button onclick="anima()"></button>
 			<article class="conteiner">
-				<article id="animation" style="background-color: rgb(255,255,255) ;">
-					
+				<article id="animation" >
+					<p class="info">Количество столиков - </p>
+					<p class="info">Количество мест - </p>
 				</article>
 			</article>
 			<script src="./index.js"></script>
