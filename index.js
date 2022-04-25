@@ -40,4 +40,3 @@ form.addEventListener('submit', retrieveFormValue);
 
 console.log(localStorage.getItem('table'));
 console.log(localStorage.getItem('place'));
-

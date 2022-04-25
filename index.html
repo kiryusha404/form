@@ -18,8 +18,10 @@
 			</form>
 			<article class="conteiner">
 				<article id="animation" >
-					<p class="info">Количество столиков - </p>
-					<p class="info">Количество мест - </p>
+					    <script type='text/javascript'>
+            				document.writeln("<p class='info'>Количество столиков - "+localStorage.getItem('table')+"</p>");
+            				document.writeln("<p class='info'>Количество мест - "+localStorage.getItem('place')+"</p>");
+        				</script>
 				</article>
 			</article>
 			<script src="./index.js"></script>
