@@ -34,6 +34,7 @@ form{
 	height: 220px;
 	background: blue;
 	text-align: center;
+	border-radius: 20px;
 }
 .input{
 	text-align: center;
@@ -42,6 +43,8 @@ form{
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 20px;
+
 }
 .button{
 	text-align: center;
@@ -50,4 +53,16 @@ form{
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 20px;
+
+}
+
+.output #el1{
+	transition-duration: 2s;
+	opacity: 1;
+}
+
+.output #el2{
+	transition-duration: 2s;
+	opacity: 1;
 }
